@@ -100,3 +100,5 @@ INFO:root:Número que ingreso es:1234567890
 INFO:django.utils.autoreload:C:\Users\David\3D Objects\Proyectos\Music\api\bar\views.py changed, reloading.
 DEBUG:asyncio:Using proactor: IocpProactor
 INFO:root:Número que ingreso es:1235468790
+INFO:root:Número que ingreso es:1231231234
+INFO:root:Número que ingreso es:1231231234

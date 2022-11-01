@@ -63,3 +63,13 @@ def Get_List_Song(request):
 		for i in song
 	]
 	return Response(data)
+
+
+@api_view(['POST'])
+def Delete_Music(request):
+	data = request.data
+	try:
+		Song.objects.get(music=data['music']).delete()
+	except Song.DoesNotExist as e:
+		print(e)
+	return Response({})

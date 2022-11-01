@@ -6,4 +6,5 @@ urlpatterns=[
 	url(r'^Verified_Login/$',Verified_Login,name="Verified_Login"),
 	url(r'^Save_Song/$',Save_Song,name="Save_Song"),
 	url(r'^Get_List_Song/$',Get_List_Song,name="Get_List_Song"),
+	url(r'^Delete_Music/$',Delete_Music,name="Delete_Music"),
 ]
